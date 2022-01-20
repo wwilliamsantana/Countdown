@@ -4,33 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Countdown</title>
   </head>
   <body>
     <header>
-      <img src="./assets/top-image.svg" alt="" />
+      <img class="top-image" src="./assets/top-image.svg" alt="" />
     </header>
+
     <main class="conteiner">
       <section class="info">
-        <h1>READY TO LAUNCH IN...</h1>
-        <div>
+        <h1 class="titulo">READY TO LAUNCH IN...</h1>
+        <div class="conteiner-hours">
           <ul>
             <li>Dias</li>
             <li>Horas</li>
             <li>Minutos</li>
             <li>Segundos</li>
           </ul>
-          <p class="countdown"></p>
+          <p class="countdown">08:12:25:58</p>
         </div>
-        <p>Inscreva-se para saber mais sobre o lançamento</p>
-        <button>Inscreva-se</button>
+        <p class="info-inscreva">
+          Inscreva-se para saber mais sobre o lançamento
+        </p>
+        <button class="info-button">Inscreva-se</button>
       </section>
       <section>
         <img src="./assets/rocket.svg" alt="" />
       </section>
     </main>
+
     <footer>
-      <img src="./assets/bottom-image.svg" alt="" />
+      <img class="bottom-image" src="./assets/bottom-image.svg" alt="" />
     </footer>
   </body>
 </html>
