@@ -52,6 +52,7 @@ body {
 ul {
   display: flex;
   gap: 91px;
+  margin-left: 150px;
 }
 
 li {
@@ -64,6 +65,7 @@ li:last-child {
 }
 
 .countdown {
+  width: 494px;
   color: var(--black);
   font-size: 72px;
   font-weight: 400;
